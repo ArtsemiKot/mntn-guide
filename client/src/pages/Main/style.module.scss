@@ -1,0 +1,85 @@
+.main {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+
+    .contacts {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 55px 55px;
+
+        .textFollow {
+            font: 700 18px Montseratt;
+            color: #fff;
+            writing-mode: vertical-rl;
+        }
+
+        .imgInst {
+            background-image: url(../../assets/instagram.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+        }
+
+        .imgTwit {
+            background-image: url(../../assets/twitter.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px
+        }
+    }
+
+    .info {
+        margin: auto;
+        width: 950px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .quide {
+            display: flex;
+            text-align: center;
+
+            .shortLine {
+                width: 72px;
+                height: 2px;
+                background-color: #FBD784;
+                border: none;
+            }
+
+            .textHiking {
+                font: 800 18px Montseratt;
+                color: #FBD784;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+        }
+    }
+
+    .textMountains {
+        font: 600 88px Montseratt;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    .scroll {
+        display: flex;
+
+        .textScroll {
+            font: 700 18px Montseratt;
+            color: #fff;
+        }
+
+        .imgArrow {
+            background-image: url(../../assets/arrow.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 30px
+        }
+    }
+}

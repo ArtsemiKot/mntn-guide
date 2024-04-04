@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin: 64px auto;
+
+    .title {
+
+        h1 {
+            font: 600 32px Montseratt;
+            color: #fff;
+        }
+    }
+
+    .paragraf {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+
+        p {
+            font: 400 25px Montseratt;
+            color: #fff;
+        }
+    }
+}
