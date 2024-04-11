@@ -1,12 +1,188 @@
-.imgOne {
-    background-image: url(../../assets/1.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 700px;
-    filter: grayscale(0.5);
-    transition: filter 0.5s ease;
-    &:hover {
-        filter: grayscale(0);
+.contentOne {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 600px;
+    align-items: center;
+    position: relative;
+
+    .wrapperContenOne {
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .text01 {
+            font: 700 240px Gilroy;
+            color: white;
+            opacity: 0.2;
+            position: absolute;
+            left: 35px;
+            top: 70px;
+        }
+
+        .title1 {
+            display: flex;
+            align-items: center;
+
+            .shrortLine1 {
+                width: 72px;
+                height: 2px;
+                background-color: #FBD784;
+                border: none;
+                margin-right: 10px;
+            }
+
+            .textGetStartied {
+                font: 800 18px Montseratt;
+                color: #FBD784;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+        }
+
+        .titleTextOne {
+            font: 600 64px 'Chronicle Display';
+            color: #fff;
+
+        }
+
+        .contentTextOne {
+            font: 700 18px Gilroy;
+            color: #fff;
+        }
+    }
+
+    .imgContent01 {
+        background-image: url(../../assets/1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 560px;
+        height: 720px;
+    }
+}
+
+.contentTwo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    align-items: center;
+    position: relative;
+
+    .wrapperContenTwo {
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .text02 {
+            font: 700 240px Gilroy;
+            color: white;
+            opacity: 0.2;
+            position: absolute;
+            left: 35px;
+            top: 70px;
+        }
+
+        .title2 {
+            display: flex;
+            align-items: center;
+
+            .shrortLine2 {
+                width: 72px;
+                height: 2px;
+                background-color: #FBD784;
+                border: none;
+                margin-right: 10px;
+            }
+
+            .textGetStartied {
+                font: 800 18px Montseratt;
+                color: #FBD784;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+        }
+
+        .titleTextTwo {
+            font: 600 64px 'Chronicle Display';
+            color: #fff;
+
+        }
+
+        .contentTextTwo {
+            font: 700 18px Gilroy;
+            color: #fff;
+        }
+    }
+
+    .imgContent02 {
+        background-image: url(../../assets/2svg.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 560px;
+        height: 720px;
+    }
+}
+
+.contentThree {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    align-items: center;
+    position: relative;
+
+    .wrapperContenThree {
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .text03 {
+            font: 700 240px Gilroy;
+            color: white;
+            opacity: 0.2;
+            position: absolute;
+            left: 35px;
+            top: 70px;
+        }
+
+        .title3 {
+            display: flex;
+            align-items: center;
+
+            .shrortLine3 {
+                width: 72px;
+                height: 2px;
+                background-color: #FBD784;
+                border: none;
+                margin-right: 10px;
+            }
+
+            .textGetStartied {
+                font: 800 18px Montseratt;
+                color: #FBD784;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+        }
+
+        .titleTextThree {
+            font: 600 64px 'Chronicle Display';
+            color: #fff;
+
+        }
+
+        .contentTextThree {
+            font: 700 18px Gilroy;
+            color: #fff;
+        }
+    }
+
+    .imgContent03 {
+        background-image: url(../../assets/3.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 560px;
+        height: 720px;
     }
 }

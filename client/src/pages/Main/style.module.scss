@@ -42,13 +42,14 @@
 
         .quide {
             display: flex;
-            text-align: center;
+            align-items: center;
 
             .shortLine {
                 width: 72px;
                 height: 2px;
                 background-color: #FBD784;
                 border: none;
+                margin-right: 10px;
             }
 
             .textHiking {
@@ -64,6 +65,7 @@
         font: 600 88px Montseratt;
         color: #fff;
         text-transform: capitalize;
+        text-shadow: 1px 1px white;
     }
 
     .scroll {
@@ -72,14 +74,15 @@
         .textScroll {
             font: 700 18px Montseratt;
             color: #fff;
+            margin-right: 10px;
         }
 
         .imgArrow {
             background-image: url(../../assets/arrow.svg);
             background-size: cover;
             background-repeat: no-repeat;
-            width: 20px;
-            height: 30px
+            width: 16px;
+            height: 24px
         }
     }
 }
