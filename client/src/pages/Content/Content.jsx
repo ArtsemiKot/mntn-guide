@@ -15,6 +15,7 @@ function Content() {
                 <div className={style.imgContent01}></div>
             </div>
             <div className={style.contentTwo}>
+                <div className={style.imgContent02}></div>
                 <div className={style.wrapperContenTwo}>
                     <div className={style.text02}>02</div>
                     <div className={style.title2}>
@@ -25,7 +26,6 @@ function Content() {
                     <p className={style.contentTextTwo}> The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have.
                         Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet. </p>
                 </div>
-                <div className={style.imgContent02}></div>
             </div>
             <div className={style.contentThree}>
                 <div className={style.wrapperContenThree}>
