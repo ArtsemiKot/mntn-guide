@@ -10,4 +10,6 @@ body {
     background-image: url(./assets/MNTN.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 1800px;
+    margin: auto;
 }

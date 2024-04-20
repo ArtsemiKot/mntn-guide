@@ -4,6 +4,12 @@
     margin-top: 600px;
     align-items: center;
     position: relative;
+    filter: grayscale(0.5);
+    transition: filter 0.4s ease;
+
+    &:hover {
+        filter: grayscale(0);
+    }
 
     .wrapperContenOne {
         width: 630px;
@@ -58,6 +64,10 @@
         background-repeat: no-repeat;
         width: 560px;
         height: 720px;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.2)
+        }
     }
 }
 
@@ -67,7 +77,12 @@
     margin-top: 200px;
     align-items: center;
     position: relative;
+    filter: grayscale(0.5);
+    transition: filter 0.4s ease;
 
+    &:hover {
+        filter: grayscale(0);
+    }
     .wrapperContenTwo {
         width: 630px;
         display: flex;
@@ -79,7 +94,7 @@
             color: white;
             opacity: 0.2;
             position: absolute;
-            right: 720px;
+            right: 660px;
             top: 70px;
         }
 
@@ -121,6 +136,10 @@
         background-repeat: no-repeat;
         width: 560px;
         height: 720px;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.2)
+        }
     }
 }
 
@@ -130,7 +149,12 @@
     margin-top: 200px;
     align-items: center;
     position: relative;
+    filter: grayscale(0.5);
+    transition: filter 0.4s ease;
 
+    &:hover {
+        filter: grayscale(0);
+    }
     .wrapperContenThree {
         width: 630px;
         display: flex;
@@ -184,5 +208,9 @@
         background-repeat: no-repeat;
         width: 560px;
         height: 720px;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.2)
+        }
     }
 }
